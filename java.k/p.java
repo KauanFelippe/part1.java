@@ -1,14 +1,14 @@
 public class Funcionario {
 
     private int codigo;
-    private string nome;
-    private string local;
+    private String nome;
+    private String local;
     private double ingresso;
     private boolean vagas;
     private double horario;
 
 
-    public Funcionario(int codigo, string nome, string local, double ingresso, boolean vagas, double horario) {
+    public Funcionario(int codigo, String nome, String local, double ingresso, boolean vagas, double horario) {
         this.codigo = codigo;
         this.nome = nome;
         this.local = local;
